@@ -2,19 +2,19 @@
 variable "env_name" {
   type = string
   #   default     = ""
-  #   description = "description"
+    # description = "description"
 }
 
 variable "aws_region" {
   type = string
   #   default     = ""
-  #   description = "description"
+    description = "The specific datacenter region for the infrastructure"
 }
 
 variable "vpc_name" {
   type    = string
   default = "ms-up-running"
-  #   description = "description"
+    description = "The VPC name"
 }
 
 variable "main_vpc_cidr" {
